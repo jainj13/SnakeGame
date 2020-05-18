@@ -136,7 +136,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Leelawadee UI" size="24" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="1. Enter A Guess Between 1-100"/>
+            <Property name="text" type="java.lang.String" value="Snake 1 Use AWSD for movement"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel3">
@@ -144,7 +144,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Leelawadee UI" size="24" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="2. Hit &quot;Guess&quot;"/>
+            <Property name="text" type="java.lang.String" value="Snake 2 Use arrows for movement"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel4">
@@ -152,7 +152,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Leelawadee UI" size="24" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="3. If Incorrect Try Again Using Hint"/>
+            <Property name="text" type="java.lang.String" value="Goal: Get 5 gold coins to win"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel5">

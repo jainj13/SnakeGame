@@ -40,13 +40,13 @@ public class Instructions extends javax.swing.JFrame {
         });
 
         jLabel2.setFont(new java.awt.Font("Leelawadee UI", 1, 24)); // NOI18N
-        jLabel2.setText("1. Enter A Guess Between 1-100");
+        jLabel2.setText("Snake 1 Use AWSD for movement");
 
         jLabel3.setFont(new java.awt.Font("Leelawadee UI", 1, 24)); // NOI18N
-        jLabel3.setText("2. Hit \"Guess\"");
+        jLabel3.setText("Snake 2 Use arrows for movement");
 
         jLabel4.setFont(new java.awt.Font("Leelawadee UI", 1, 24)); // NOI18N
-        jLabel4.setText("3. If Incorrect Try Again Using Hint");
+        jLabel4.setText("Goal: Get 5 gold coins to win");
 
         jLabel5.setFont(new java.awt.Font("Leelawadee UI", 1, 24)); // NOI18N
         jLabel5.setText("Lose Conditions: Do not go out of bounce");
