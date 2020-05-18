@@ -1,5 +1,3 @@
-package snakes_game;
-
 //Instructions page
 public class Instructions extends javax.swing.JFrame {
 
@@ -29,7 +27,7 @@ public class Instructions extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Trebuchet MS", 1, 48)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(200, 20, 20));
-        jLabel1.setText("Rules");
+        jLabel1.setText("Instructions");
 
         jButton1.setBackground(new java.awt.Color(200, 200, 240));
         jButton1.setFont(new java.awt.Font("Verdana", 1, 36)); // NOI18N
@@ -42,13 +40,13 @@ public class Instructions extends javax.swing.JFrame {
         });
 
         jLabel2.setFont(new java.awt.Font("Leelawadee UI", 1, 24)); // NOI18N
-        jLabel2.setText("Player 1 Movement: Arrow Keys");
+        jLabel2.setText("1. Enter A Guess Between 1-100");
 
         jLabel3.setFont(new java.awt.Font("Leelawadee UI", 1, 24)); // NOI18N
-        jLabel3.setText("Player 2 Movement: AWSD");
+        jLabel3.setText("2. Hit \"Guess\"");
 
         jLabel4.setFont(new java.awt.Font("Leelawadee UI", 1, 24)); // NOI18N
-        jLabel4.setText("First Snake To Catch 8 Gold Coins Wins");
+        jLabel4.setText("3. If Incorrect Try Again Using Hint");
 
         jLabel5.setFont(new java.awt.Font("Leelawadee UI", 1, 24)); // NOI18N
         jLabel5.setText("Lose Conditions: Do not go out of bounce");
@@ -76,12 +74,12 @@ public class Instructions extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
                 .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 143, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(57, 57, 57))
+                .addGap(79, 79, 79))
             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel1Layout.createSequentialGroup()
-                    .addGap(47, 47, 47)
+                    .addGap(56, 56, 56)
                     .addComponent(jLabel6)
-                    .addContainerGap(240, Short.MAX_VALUE)))
+                    .addContainerGap(231, Short.MAX_VALUE)))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -98,12 +96,12 @@ public class Instructions extends javax.swing.JFrame {
                 .addComponent(jLabel5)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jButton1)
-                .addContainerGap(52, Short.MAX_VALUE))
+                .addContainerGap(27, Short.MAX_VALUE))
             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                    .addContainerGap(311, Short.MAX_VALUE)
-                    .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGap(67, 67, 67)))
+                .addGroup(jPanel1Layout.createSequentialGroup()
+                    .addGap(308, 308, 308)
+                    .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addContainerGap(28, Short.MAX_VALUE)))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
