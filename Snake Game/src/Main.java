@@ -16,8 +16,18 @@ import javax.swing.JFrame;
 
 //MAIN CLASS WILL RUN GAME USING OBJECTS
 public class Main extends JFrame{
+        
+public Main(Snake Player1, Snake Player2){
     
+   //SNAKE AND GAME_SET STILL NEED TO BE PROGRAMMED THEREFORE ERROR
     
+    //call the game set func
+
+        Game_set(Player1, Player2);
+}    
     //Using Contrusctor to draw gameboard and add snake as objects
-    private void
+    private void Game_set {Snake Player1, Snake Player2}
+    
+    //create game board as own object
+    
 }
