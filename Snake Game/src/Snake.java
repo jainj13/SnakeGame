@@ -29,15 +29,23 @@ public class Snake{
 
     //variables to store data of movement keys
     int rightdir;
+    int leftdir;
+    int updir;
+    int downdir;
   
     //basic set up for snake object 
     
 public Snake (int right, int left, int up, int down){
-       rightdir = right
+       rightdir = right;
+       leftdir = left;
+       updir = up;
+       downdir = down;
+       
     }
 
 public void movement(KeyEvent ev){
 
+    //using key event to take input from keyboard for movemment
 int dir = ev.getKeyCode();
         
 
@@ -48,8 +56,29 @@ int dir = ev.getKeyCode();
             left = false;
             up = false;
             down = false;
-            
         }
+            
+         if (dir == leftdir){
+            right = false;
+            left = true;
+            up = false;
+            down = false;
+         }
+            
+         if (dir == updir){
+            right = false;
+            left = false;
+            up = true;
+            down = false;
+         }
+         
+        if (dir == downdir){
+            right = false;
+            left = false;
+            up = false;
+            down = true;
+         }
+        
         
         }
 
