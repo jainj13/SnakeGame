@@ -9,7 +9,11 @@
  * @author Jatin
  */
 //imports
+import java.awt.Color;
+import java.awt.Dimension;
 import java.awt.event.ActionListener;
+import java.awt.event.KeyAdapter;
+import java.awt.event.ActionEvent;
 import javax.swing.JPanel;
 import java.awt.Image;
 import javax.swing.ImageIcon;
@@ -65,19 +69,35 @@ public class Game_set extends JPanel implements ActionListener{
         
     }
     
-    private void Init_board (){
-    }
+      // variable to check for condition
+        private final int delay  = 50;
+    
+        // variable to turn on and off
+        private boolean ingame = true;
+    
+        private Timer timer;
         
-    // variable to check for condition
-    private final int delay  = 50;
+    private void Init_board (Snake s1, Snake s2){
     
-    // variable to turn on and off
-    private boolean ingame = true;
-    
-    private Timer timer;
-   
- //game set up method   
-        private void initGame(){
+        
+        //FIND OUT HOW TO USE addkey
+        
+        
+//Tracks when a key is pressed
+        setBackground(Color.black);
+        setFocusable(true);
+
+        //400x400
+        setPreferredSize(new Dimension(400, 400));
+        
+        //use image method to loead
+        set_Images();
+        
+        //start game
+        initGame();
+        
+    }
+    private void initGame(){
         
             //place snake but avoid being out of bounce
             for (int z = 0; z < snakes[0].length; z++){
